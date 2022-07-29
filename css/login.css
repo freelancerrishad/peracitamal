@@ -1,0 +1,63 @@
+/* login image h1 font */
+
+/* paragraph font */  
+.design-image {
+  background-image: url(../images/login.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  padding: 125px;
+}
+.peracetemol{
+  font-family: 'Righteous', cursive;
+}
+.logo-image p{
+    font-family: 'Finlandica', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Ibarra Real Nova', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+width: 32.84vh;
+}
+
+.form-class{
+    height: 80vh;
+}
+
+/* input fild css */
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|PT+Sans:400,700");
+
+
+.form-input {
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    border: 2px solid #eee;
+    padding-left: 20rem;
+    font-size: 18px;
+    line-height: 30px;
+    outline: 0;
+    display: block;
+    width: 100%;
+
+}
+.icon {
+    position: absolute;
+    left: 15px;
+    font-size: 25px;
+    height: 100%;
+    color: #A1A8B0;
+}
+.eye{
+  position: absolute;
+  right: 20px;
+  color: #A1A8B0;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awsome link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Great+Vibes&family=Ibarra+Real+Nova&family=Poppins:wght@500&family=Righteous&family=Roboto+Mono&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <!-- Flowbite -->
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
+
+    <!-- My style -->
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <section id="signup" class="">
+        <div class="grid md:grid-cols-4 gap-10">
+            <div class="hidden md:block lg:col-span-3 md:col-span-2">
+                <div class="design-image w-full flex justify-center items-center">
+                   
+                </div>
+            </div>
+            <div class="flex justify-center md:col-span-2 lg:col-span-1 flex-col">
+                <div class="flex justify-center items-center">
+                    <div class="mb-10">
+                        <p class="font-bold text-xl my-5 ml-7">Create your Account Here!</p>
+                        <!-- Form Start -->
+                        <form action="" class="flex flex-col ml-5 w-80">
+                            <div class="form-input">
+                                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                                <input type="text" name="name" placeholder="Enter your Name"
+                                    class="px-16 rounded-md border-gray-300">
+                            </div>
+
+                            <div class="form-input">
+                                <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                <input type="email" name="email" placeholder="Enter your email"
+                                    class="px-16 rounded-md border-gray-300">
+                            </div>
+                            <div class="form-input mb-5">
+                                <span class="icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                                <input type="password" name="password" placeholder="Enter your password"
+                                    class="px-16 rounded-md border-gray-300">
+                                <span class="eye"><i class="fa-solid fa-eye-slash"></i></span>
+                            </div>
+                            <!-- TOC -->
+                            <div class="w-96 flex items-center my-5">
+                                <input type="checkbox" class="rounded-md"> &nbsp;&nbsp;&nbsp;<p>I agree to the medidoc <a href="">Terms of Service </a> and <a href="">Privacy Policy</a></p>
+                            </div>
+                           
+                            <button type="submit" class="bg-sky-500 rounded-md p-3 text-2xl text-white">Sign Up</button>
+                        </form>
+                        <!-- Form End -->
+                    </div>
+                </div>
+               
+                <!-- Other sign in option -->
+                <div class="flex my-5 justify-center">
+                    <p>Already Have an account ?</p>&nbsp;&nbsp;<a href="login.html" class="text-sky-500 font-medium">Go Back</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Tailwind script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind element -->
+    <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+    <!-- Flowbite script -->
+    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+
+
+</body>
+
+</html>

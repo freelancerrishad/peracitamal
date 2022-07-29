@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awsome link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Great+Vibes&family=Ibarra+Real+Nova&family=Poppins:wght@500&family=Righteous&family=Roboto+Mono&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <!-- Flowbite -->
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
+
+    <!-- My style -->
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <section id="login" class="">
+        <div class="grid md:grid-cols-4 gap-5">
+            <div class="hidden md:block lg:col-span-3 md:col-span-2">
+                <div class="design-image w-full flex justify-center items-center">
+                    <div class="flex flex-col justify-center items-center w-60">
+                        <p class="peracetemol text-white lg:text-7xl text-5xl my-5 font-bold">Peracetemol</p>
+                        <img src="images/logo-inside.png" alt="">
+                        <p class="text-white md:text-xl text-center my-5">Login to enjoy the features we have provided,
+                            and
+                            stay healthy</p><br><br><br><br><br><br><br><br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center md:col-span-2 lg:col-span-1 flex-col">
+                <div class="flex justify-center items-center">
+                    <div class="mb-10">
+                        <p class="font-bold text-xl my-5">Nice to see you again!</p>
+                        <!-- Form Start -->
+                        <form action="" class="flex flex-col">
+                            <div class="form-input">
+                                <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                <input type="email" name="email" placeholder="Enter your email"
+                                    class="px-16 rounded-md border-gray-300">
+                            </div>
+                            <div class="form-input mb-5">
+                                <span class="icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                                <input type="password" name="password" placeholder="Enter your password"
+                                    class="px-16 rounded-md border-gray-300">
+                                <span class="eye"><i class="fa-solid fa-eye-slash"></i></span>
+                            </div>
+                            <button type="submit" class="bg-sky-500 rounded-md p-3 text-2xl text-white">Sign In</button>
+                        </form>
+                        <!-- Form End -->
+                    </div>
+                </div>
+                <div class="flex items-center justify-center container mx-auto">
+                    <hr class="border border-gray-300 w-32  mr-3">
+                    <p>OR</p>
+
+                    <hr class="border border-gray-300 w-32 ml-3">
+                </div>
+                <!-- Other sign in option -->
+                <div class="flex justify-center my-16">
+                    <form action="" class="flex justify-center flex-col">
+                        <button type="google-submit" class="border px-10 py-3 rounded-md my-5"><img
+                                src="images/google-logo.png" alt="" class="h-8 w-8 inline-block"><span
+                                class="ml-10">SignIn With Google</span></button>
+
+                        <button type="google-submit" class="border px-10 py-3 rounded-md"><img
+                                src="images/facebook-logo.png" alt="" class="h-8 w-8 inline-block"><span
+                                class="ml-10">SignIn With Facebook</span></button>
+                        <div class="flex my-5 justify-center">
+                            <p>Don't have an account?</p>&nbsp;&nbsp;<a href="signup.html" class="text-sky-500 font-medium">Sign
+                                up</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Tailwind script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind element -->
+    <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+    <!-- Flowbite script -->
+    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+
+
+</body>
+
+</html>
